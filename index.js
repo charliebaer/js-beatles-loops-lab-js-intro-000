@@ -11,4 +11,5 @@ function johnLennonFacts(facts){
   while(let i=facts.length > 0){
     arr[i]=`"${facts[i]}" + "!!!"`
   }
+  return(arr);
 }

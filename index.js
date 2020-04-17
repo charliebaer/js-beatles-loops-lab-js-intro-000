@@ -1,6 +1,4 @@
 // add solution here
-musicians=[john,rose,arya]
-instruments=[beets,carots,onions]
 function theBeatlesPlay(musicians,instruments){
   var arr;
   for(let i=0;i<musicians.length;i++){
@@ -8,4 +6,3 @@ function theBeatlesPlay(musicians,instruments){
   }
   return(arr)
 }
-theBeatlesPlay(musicians,instruments)
